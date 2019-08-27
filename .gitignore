@@ -1,8 +1,6 @@
 .idea/*
 *.iml
 *.DS_Store
-**/target/*
-target
 !.idea/codeStyleSettings.xml
 **/.gradle/*
 **/build/*
