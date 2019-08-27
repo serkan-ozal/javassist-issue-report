@@ -28,6 +28,7 @@ public class RunnerInstrumentation {
             ctMethod.insertBefore("System.out.println(\"before\");");
             ctMethod.insertAfter("System.out.println(\"after\");");
         }
+        ctClass.debugWriteFile("./debug");
         Class clazz = ctClass.toClass();
         System.out.println("Instrumented class " + clazz.getName());
 
